@@ -47,7 +47,7 @@ apt-get -y upgrade
 shutdown -r now
 
 
-# After reboot, re-loginas root and run:
+# After reboot, re-login as root and run:
 wget --no-check-certificate -O ./FPP_Install.sh https://raw.githubusercontent.com/FalconChristmas/fpp/master/SD/FPP_Install.sh
 chmod 700 ./FPP_Install.sh
 
